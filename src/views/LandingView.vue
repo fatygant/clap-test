@@ -4,9 +4,9 @@
     <nav class="fixed top-0 left-0 right-0 bg-clapperly-gray border-b border-clapperly-border h-[75px] z-50">
       <div class="container mx-auto px-20 h-full flex items-center justify-between">
         <div class="flex items-center gap-10">
-          <h1 class="text-clapperly-gold text-2xl font-bold">Clapperly</h1>
+          <router-link to="/" class="text-clapperly-gold text-2xl font-bold">Clapperly</router-link>
           <div class="flex gap-8">
-            <a href="#catalog" class="text-clapperly-text text-base font-medium hover:text-clapperly-gold">Katalog</a>
+            <router-link to="/catalog" class="text-clapperly-text text-base font-medium hover:text-clapperly-gold">Katalog</router-link>
             <a href="#how-it-works" class="text-clapperly-text text-base font-medium hover:text-clapperly-gold">Jak to działa?</a>
           </div>
         </div>
